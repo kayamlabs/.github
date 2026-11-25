@@ -14,6 +14,8 @@ In our own simulator, the same small model (Qwen3-1.7B) was RL-trained on each r
 
 We also ran six off-the-shelf models on Corner Shop. Last-day cash rated them at 17–83% of a simple scripted operator. The going-concern score showed most of them left the business worth less than nothing once it kept running. [Leaderboard](https://github.com/kayamlabs/corner-shop#leaderboard).
 
+We also told three frontier models (GPT-6.2-Sol, Claude Sonnet 5.5, Gemini 3.1 Pro) they would be scored on last-day cash, changing one sentence of the prompt. On 30 paired runs they ended with more cash in 27 and left a less valuable business in 25: fewer orders and payments in the last weeks, stock fire-sold, bills left unpaid. The score, not the model, decides whether the business survives.
+
 ## Team
 Dante de Prenda and Rotem Kronrod (Columbia University and Tel Aviv University).
 
